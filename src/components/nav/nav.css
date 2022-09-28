@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    background: #333333;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px
+}
+.img {
+    
+}
+.nav div{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.nav div img{
+    margin-left: 10px;
+}
