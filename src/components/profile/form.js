@@ -1,8 +1,8 @@
 import React from 'react'
 import "./profile.css"
-export default function Profile() {
+export default function Form() {
   return (
-    <div className='profile'>
+    <div className='form'>
         <ol>
             <li>
                 <p>Course of study in school</p>

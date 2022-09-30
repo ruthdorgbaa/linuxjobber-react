@@ -1,4 +1,4 @@
-.profile{
+.form{
     background: #FFFFFF;
     box-shadow: 0px 4px 29px #F0F3FF;
     border-radius: 35px;
@@ -7,17 +7,17 @@
     font-size: 16px;
     font-weight: 300;
 }
-.profile div div {
+.form div div {
     align-content: center;
 }
 
-.profile div div p{
+.form div div p{
     width: 187px;
     text-align: center;
     background-color: red;
     align-content: center;
 }
-.profile input{
+.form input{
     width: 283px;
     height: 53px;
     background: #F1F3FD;
@@ -35,4 +35,12 @@
     background: #F1F3FD;
     border-radius: 17px;
     border: none;
+}
+.imgs{
+    position: relative;
+}
+.img-2{
+    position: relative;
+    right: 140px;
+    bottom: -20px;
 }
