@@ -17,32 +17,33 @@ export default function Profile() {
                 <img className='img-1' src={profilePix} alt="profile-pix"/>
                 <img className='img-2' src={cam}alt="cam"/>
               </div>
-              <h2>Ruth Dorgbaa</h2>
+              <h2>Ade Olu</h2>
           </div>
-          <div>
-            <div className='btns'>
-             <button><img src={profileIcon} alt="profile-icon" /></button> 
-             <p>Profile &gt;</p>
+          <div className='profile-section'>
+            <div className='profile-area'>
+              <button className='profile-btn'><img src={profileIcon} alt="profile-icon" /></button> 
+              <p>Profile</p>
+              <p>&gt;</p>
+            </div>
+        
+            <div className='profile-area'>
+              <button className='profile-btn'>
+                <img src={courseIcon} alt="course-icon" />
+              </button>
+                <p>Courses</p>
+                <p>&gt;</p>
+            </div>    
+      
+            <div className='profile-area'>
+                <button className='profile-btn'><img src={attendanceIcon} alt="attendance-icon" /></button>
+                <p>Attendance</p>
+                <p>&gt;</p>
+            </div> 
           </div>
-        
-        <div className='btns'>
-          <button>
-          <img src={courseIcon} alt="course-icon" />
-          </button>
-              <p>Courses &gt;</p>
-          </div>    
-      
-          <div className='btns'>
-              <button><img src={attendanceIcon} alt="attendance-icon" /></button>
-              <p>Attendance &gt;</p>
-        </div> 
-        
-        </div>
-        <div className='logout-btn'>
-          <img src={logoutIcon} alt="logout-con" />
-          <button> Logout</button> 
-        </div>
-      </div>
-      
+          <div className='logout-area'>
+            <img src={logoutIcon} alt="logout-con" />
+            <button> Logout</button> 
+          </div>
+      </div>  
   )
 }

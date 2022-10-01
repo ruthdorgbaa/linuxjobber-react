@@ -55,3 +55,32 @@
     bottom: -20px;
 }
 
+.profile-btn{
+    background: #F1F3FD;
+    border-radius: 17px;
+    width: 53px;
+    height: 53px;
+    border: none;
+}
+.profile-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 90px 20px 57px;
+}
+.profile-area p{ 
+    font-size: 16px;
+}
+.logout-area{
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 44px;
+}
+.logout-area button{
+    height: 26px;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: white;
+    color: #ACB7EB;
+    border: none;
+    margin-left: 15px;
+}
