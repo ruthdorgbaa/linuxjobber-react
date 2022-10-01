@@ -29,18 +29,29 @@
     display: flex;
     justify-content: space-evenly;
 }
-.btns button {
+ .btns button {
     width: 88px;
     height: 53px;
     background: #F1F3FD;
     border-radius: 17px;
     border: none;
+    margin: -10px 0 0 -10px; 
 }
+
+.img-container{
+    margin: 0 auto;
+    width: fit-content;
+}
+
 .imgs{
     position: relative;
 }
+.img-container h2 {
+    text-align: center;
+}
 .img-2{
-    position: relative;
-    right: 140px;
+    position: absolute;
+    right: 100px;
     bottom: -20px;
 }
+
