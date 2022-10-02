@@ -5,10 +5,16 @@ import pen from "./asset/pen.svg";
 import Profile from "./profile-detail";
 
 export default function Form() {
+  const [next, setNext] = useState(1)
+  const handleClick = () => {
+    setNext(next + 1)
+  }
+  
+  console.log()
+  
   return (
     <>
-      <FormOne />
-      <FormTwo />
+      {next === 1 ? <FormOne handleClick={handleClick}/>:<FormTwo />}
       <Profile/>
       <FormThree />
       <FormFour />
@@ -18,7 +24,7 @@ export default function Form() {
   );
 }
 
-function FormOne() {
+function FormOne({handleClick}) {
   return (
     <div className="form">
       <div className="tick">
@@ -59,7 +65,7 @@ function FormOne() {
           <button>No</button>
         </div>
         <div className="done-section">
-          <button className="done-btn">Next Step ></button>
+          <button onClick={handleClick} className="done-btn">Next Step ></button>
         </div>
       </div>
     </div>
