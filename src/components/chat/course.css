@@ -1,0 +1,33 @@
+.category-item{
+    width: 209px;
+    text-align: center;
+}
+.item-title, .items,.item-title-before,.items-before{
+    background: #F1F3FD;
+}
+.item-title, .item-title-before{
+    border-radius: 17px;
+    font-size: 20px;
+    padding: 13px;
+    margin-bottom: 80px;
+}
+.item-title:hover, .items:hover{
+    opacity: 0.6;
+}
+.item-title-before, .items-before{
+    opacity: 0.6;
+}
+.items, .items-before {
+    width: 150px;
+    margin: 31px auto;
+    padding: 9px;
+    border-radius: 11.8679px;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.course{
+    margin: 160px 129px;
+}

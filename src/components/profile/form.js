@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import "./profile.css";
 import tick from "./asset/tick.svg";
 import pen from "./asset/pen.svg";
@@ -86,13 +86,10 @@ function FormTwo() {
     return { backgroundSize: len };
   };
   const handleChange = (e) => {
-    let target = e.target;
-    const val = target.value;
 
     // target.style.backgroundSize = ((val - min) * 100) / (max - min) + "% 100%";
     const { name, value } = e.target;
     setRange({ ...range, [name]: value });
-    console.log(val);
   };
   return (
     <div className="form form-two">
