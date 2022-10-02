@@ -6,7 +6,6 @@ import profileIcon from "./asset/profile-icon.svg"
 import courseIcon from "./asset/course-icon.svg"
 import attendanceIcon from "./asset/attendance-icon.svg"
 import logoutIcon from "./asset/logout-icon.svg"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
  
 
 export default function Profile() {
