@@ -176,3 +176,78 @@ input[type=range]:before::-webkit-slider-runnable-track  {
     border: none;
     margin-left: 15px;
 }
+.form-three-input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-three{
+
+}
+.p5{
+    text-align: center;
+}
+
+.form-five-range::-webkit-slider-thumb{
+    display: none;
+}
+
+.three-input{
+    display: flex;
+    width: 100%;
+    background: #F1F3FD;
+    border-radius: 17px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    justify-content: space-between;
+    color: #C5CCEC;
+    padding: 0 10px;
+}
+.course-de{
+   display: flex;
+    width: 100%;
+    background: #F1F3FD;
+    border-radius: 17px;
+    border: none;
+    font-size: 16px;
+    color: #30302E;
+    padding: 0 10px;
+    justify-content: center;
+}
+.course-de p{
+    text-align: center;
+}
+.course-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.course-video p {
+    text-align: center;
+    color: #ACB7EB;
+}
+
+.red-color{
+    color: #CC4174 !important;
+}
+
+.remove-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.remove-course a {
+    text-decoration: none;
+
+}
+.remove-course p{
+    color: #D8D8D8;
+}
+.form hr {
+    border: 1px dashed #CAD3FF;
+    margin-bottom: 20px;
+}

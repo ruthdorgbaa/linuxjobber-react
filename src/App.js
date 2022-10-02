@@ -7,9 +7,6 @@ function App() {
     <div className="App">
       <Nav />
       <Form />
-      <Profile/>
-      
-     
     </div>
     
   );
