@@ -3,11 +3,18 @@ import "./css/topic.course.css"
 import { Students } from "./students";
 import iconplay from "./assests/play-icon.svg"
 import { topics } from "./static/topic";
+import Notes from "./note";
 
-function TopicRight (){
+export function TopicRight (){
     return(
-        <div>
-
+        <div className="right-container">
+            <div className="right-cont-btn">
+                <button>video</button>
+                <button>Lab</button>
+                <button>Note</button>
+                <button>Chat</button>
+            </div>
+            <Notes />
         </div>
     )
 }
@@ -39,10 +46,14 @@ export default function TopicLeft (){
 
 function Topic ({topic}) {
     return (
-        <div className="topic-container">
-            <img src={iconplay} alt="play-icon" />
-            <p>{topic}</p>
-        </div>
+        <>
+            <div className="topic-container">
+                <img src={iconplay} alt="play-icon" />
+                <p>{topic}</p>
+            </div>
+            <hr className="topic-hr"/>
+        </>
+        
     )
 }
 export function Topics (){

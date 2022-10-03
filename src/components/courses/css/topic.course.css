@@ -1,14 +1,32 @@
 
 .left-container{
-    margin-top: 81px;
+    margin-right: 88px;
     margin-left: 100px;
 }
+.right-container,.left-container{
+    margin-top: 81px;
+}
 
-.left-cont-btn{
+.left-cont-btn,.right-cont-btn{
     display: flex;
+}
+.right-cont-btn {
+    justify-content: space-between;
+}
+.right-cont-btn button{
+    width: 150px;
+    height: 53px;
+
+    background: #F1F3FD;
+    border-radius: 17px;
+    border:  none;
+    margin-bottom: 34px;
 }
 .btn-active {
 
+}
+.topic-hr{
+    border: 1px solid #ECEFFF;
 }
 .left-cont-btn button {
     width: 209px;
