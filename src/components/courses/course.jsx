@@ -1,4 +1,4 @@
-import "./course.css"
+import "./css/course.css"
 export function Course(){
     return (
         <div className="course">

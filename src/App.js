@@ -1,12 +1,12 @@
-import { Course } from './components/chat/course';
+import { Course } from './components/courses/course';
+import { Students } from './components/courses/students';
 import Nav from './components/nav/nav';
-import Form from './components/profile/form.js';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Course />
+      <Students />
     </div>
     
   );
