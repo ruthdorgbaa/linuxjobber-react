@@ -1,0 +1,17 @@
+export const topics = [
+  "Python as a Computer Programming Language",
+  "Datatypes and General Programming Concepts",
+  "Mathematical Functions, Strings and Objects",
+  "For Loops, While Loops, and Nested Loops",
+  "Basic Function Definition and Variable Scope",
+  "Introduction to Classes in Python",
+  "For Loops, While Loops, and Nested Loops",
+  "Basic Function Definition and Variable Scope",
+  "Introduction to Classes in Python",
+  "For Loops, While Loops, and Nested Loops",
+  "Basic Function Definition and Variable Scope",
+  "Introduction to Classes in Python",
+  "For Loops, While Loops, and Nested Loops",
+  "Basic Function Definition and Variable Scope",
+  "Introduction to Classes in Python",
+];

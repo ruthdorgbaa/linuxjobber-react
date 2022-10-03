@@ -1,0 +1,30 @@
+
+.left-container{
+    margin-top: 81px;
+    margin-left: 100px;
+}
+
+.left-cont-btn{
+    display: flex;
+}
+.btn-active {
+
+}
+.left-cont-btn button {
+    width: 209px;
+    height: 53px;
+
+    background: #F1F3FD;
+    border-radius: 17px;
+    border:  none;
+    margin-bottom: 34px;
+}
+.topic-btn {
+    margin-right:  21px;
+}
+.topic-container{
+    display: flex;
+}
+.topic-container img{ 
+    margin-right: 25px;
+}

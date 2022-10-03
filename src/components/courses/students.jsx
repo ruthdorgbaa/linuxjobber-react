@@ -13,8 +13,7 @@ export function Students () {
         </div>
     )
 }
-
-export function Student ({name, img}){
+ function Student ({name, img}){
     return (
         <div className="std-container">
             <div className="std-name">
